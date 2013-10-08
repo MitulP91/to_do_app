@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <script src="scripts/todo.js"></script>
+  </head>
+  <body>
+	<div id="container">
+		<h1>To Do Checklist</h1>
+		<p class="list-title">To Do Items </p>
+		<div id="unfinished">
+			<input type="text" id="new-task-field" placeholder="Input task...">
+			<input type="button" id="add-item" value="Add">
+			<input type="text" id="month-field" placeholder="Input month(1-12)">
+			<input type="text" id="day-field" placeholder="Input day(1-31)">
+			<input type="text" id="year-field" placeholder="Input year(xxxx)">
+			<input type="text" id="hour-field" placeholder="Input hour(0-23)">
+			<input type="text" id="minute-field" placeholder="Input minute(0-59)">
+			<ol id="todo-items"></ol>
+		</div>
+
+		<hr/>
+
+		<p class="list-title">Completed Items </p>
+		<div id="finished">
+			<ul id="completed-items"></ul>
+		</div>
+	</div>
+  </body>
+</html>

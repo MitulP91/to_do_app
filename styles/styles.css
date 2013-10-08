@@ -1,0 +1,131 @@
+body {
+  font-family: Helvetica, Arial, Sans-Serif;
+  background: url('../images/bridge.jpg');
+  background-size: cover;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+p {
+  margin: 0px;
+}
+li {
+  margin: 5px;
+}
+
+.list-title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: rgba(59, 185, 255, 0.8);
+  width: 300px;
+  margin: auto;
+  border-radius: 30px;
+  text-decoration: underline;
+}
+
+#text {
+  float: left;
+}
+
+#date {
+  float: right;
+  position: relative;
+  right: 150px;
+}
+
+#container {
+  width: 1000px;
+  margin: auto;
+}
+
+#new-task-field {
+  padding: 10px;
+  border: none;
+  width: 789px;
+  margin: 15px 0 0 45px;
+}
+
+.items {
+  padding: 10px;
+  background: white;
+  color: #808080;
+}
+.meta-data {
+  color: #aaaaaa;
+  font-size: small;
+  font-style: italic;
+}
+
+#unfinished,
+#finished {
+  margin: 10px 0 10px 0;
+  padding: 10px 40px 10px 10px;
+  background: rgba(59, 185, 255, 0.8);
+  color: #FFFE0D;
+  border-radius: 30px;
+}
+#finished li {
+  list-style-type: none;
+}
+#finished li .items {
+  color: #aaaaaa;
+}
+
+.actions {
+  float: right;
+}
+
+button {
+  margin: 0px 5px 0px 5px;
+  padding: 15px 30px;
+  position: relative;
+  top: -50px;
+  float: right;
+  border: none;
+  border-radius: 5px;
+  background: #6D0CE8;
+  color: white;
+}
+
+button:hover {
+  background: #1485CC;
+}
+
+.delete {
+  background: #eecccc;
+}
+.complete {
+  background: #eeeeee;
+}
+#add-item {
+  background: #6D0CE8;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 31px;
+}
+
+#add-item:hover {
+  background: #1485CC;  
+}
+
+#todo-items li {
+  padding: 10px 0;
+}
+
+#completed-items li {
+  padding: 10px 0 30px 0;
+}
+
+#month-field, #day-field, #hour-field, #minute-field, #year-field {
+  padding: 10px;
+  width: 153px;
+}
+
+#month-field {
+  margin: 5px 0px 0px 45px;
+}
